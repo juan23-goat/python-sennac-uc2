@@ -1,0 +1,83 @@
+
+
+
+
+
+body {
+    position: absolute;
+   
+}
+
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+}
+body {
+  background-color: #282c34; 
+  color: #808080; 
+  font-family: sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+}
+
+
+h1, h2, h3 {
+  color: #ffd700; 
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+a {
+  color: #4682b4; 
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+section {
+  background-color: #333333; 
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.botao {
+  background-color: #cc5500; 
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  cursor: pointer;
+}
+.botao:hover {
+  background-color: #e65c00; 
+}
+
+.foto-perfil {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
